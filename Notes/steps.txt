@@ -1,0 +1,183 @@
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~
+$ mkdir Gualde
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~
+$ cd Gualde
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
+$ git clone https://github.com/Ljee17/Midterm.git
+Cloning into 'Midterm'...
+warning: You appear to have cloned an empty repository.
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
+$ git clone https://github.com/Ljee17/Midterm.git
+fatal: destination path 'Midterm' already exists and is not an empty directory.
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
+$ cd Midterm
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde/Midterm (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde/Midterm (master)
+$ cd..
+bash: cd..: command not found
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde/Midterm (master)
+$ cd ..
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
+$ cd ..
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~
+$ cd ..
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c/Users
+$ cd ..
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c
+$ mkdir Gualde
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c
+$ cd Gualde
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c/Gualde
+$ git clone https://github.com/Ljee17/Midterm.git
+Cloning into 'Midterm'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c/Gualde
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c/Gualde
+$ git pull origin master
+fatal: Not a git repository (or any of the parent directories): .git
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c/Gualde
+$ cd Midterm
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c/Gualde/Midterm (master)
+$ git push origin master
+Everything up-to-date
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c/Gualde/Midterm (master)
+$ git add .
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c/Gualde/Midterm (master)
+$ git commit -m "Midterm"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Comlab2-014@DESKTOP-IA03A9O.(none)')
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c/Gualde/Midterm (master)
+$ git fetch
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c/Gualde/Midterm (master)
+$ cd ..
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c/Gualde
+$ cd ..
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /c
+$ cd ..
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /
+$ cd ..
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /
+$ cd ..
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /
+$ cd Gualde
+bash: cd: Gualde: No such file or directory
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 /
+$ cd
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~
+$ cd Gualde
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
+$ git fetch
+fatal: Not a git repository (or any of the parent directories): .git
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
+$ cd Midterm
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde/Midterm (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        README.md
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde/Midterm (master)
+$ git add .
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde/Midterm (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   README.md
+        new file:   index.html
+
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde/Midterm (master)
+$ cd ..
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
+$ cd Exam
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde/Exam
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde/Exam
+$ cd ..
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
+$ git pull origin master
+fatal: Not a git repository (or any of the parent directories): .git
+
+Comlab2-014@DESKTOP-IA03A9O MINGW64 ~/Gualde
